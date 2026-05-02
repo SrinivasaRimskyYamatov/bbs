@@ -1,0 +1,44 @@
+Started GET "/" for ::1 at 2026-05-02 09:56:17 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 581)
+Completed 200 OK in 30ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10176)
+
+
+Started GET "/" for ::1 at 2026-05-02 09:56:21 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 25)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 351)
+
+
+Started GET "/msgboard" for ::1 at 2026-05-02 09:56:26 +0900
+Processing by MsgboardController#index as HTML
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 7.2ms | Allocations: 1607)
+  Rendered layout layouts/msgboard.html.erb (Duration: 9.0ms | Allocations: 1983)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 3236)
+
+
+Started GET "/msgboard" for ::1 at 2026-05-02 09:57:35 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MsgboardController#index as HTML
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 20.6ms | Allocations: 4978)
+  Rendered layout layouts/msgboard.html.erb (Duration: 22.0ms | Allocations: 5444)
+Completed 200 OK in 58ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 15123)
+
+
+Started POST "/msgboard/index" for ::1 at 2026-05-02 09:57:55 +0900
+Processing by MsgboardController#index as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"荒木知也", "mail"=>"test@exampledoma.ink", "msg"=>"testだよぉ", "commit"=>"click"}
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 0.9ms | Allocations: 299)
+  Rendered layout layouts/msgboard.html.erb (Duration: 4.0ms | Allocations: 438)
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1222)
+
+

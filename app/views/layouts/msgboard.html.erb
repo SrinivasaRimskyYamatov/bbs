@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= @title %></title>
+        <%= csrf_meta_tags %>
+        <%= csp_meta_tag %>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">"
+    </head>
+    <body class="container text-body">
+        <h1 class="mb-4 display-4 text-primary">MsgBoard</h1>
+        <%= yield %>
+        <div class="mt-4 text-center small text-dark border-top border-dark">
+        copyright ARAKI-Tomoya. 2026</div>
+    </body>
+</html>

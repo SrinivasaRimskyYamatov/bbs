@@ -42,3 +42,38 @@ Processing by MsgboardController#index as HTML
 Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1222)
 
 
+Started GET "/" for ::1 at 2026-05-02 10:51:12 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/gems/gems/railties-7.1.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 378)
+Completed 200 OK in 46ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 7904)
+
+
+Started GET "/msgboard" for ::1 at 2026-05-02 10:51:15 +0900
+Processing by MsgboardController#index as HTML
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 25.2ms | Allocations: 4159)
+  Rendered layout layouts/msgboard.html.erb (Duration: 26.6ms | Allocations: 4516)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 5333)
+
+
+Started GET "/msgboard" for ::1 at 2026-05-02 10:51:18 +0900
+Processing by MsgboardController#index as HTML
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 3.7ms | Allocations: 433)
+  Rendered layout layouts/msgboard.html.erb (Duration: 5.0ms | Allocations: 580)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 796)
+
+
+Started GET "/msgboard" for ::1 at 2026-05-02 10:51:18 +0900
+Processing by MsgboardController#index as HTML
+  Rendering layout layouts/msgboard.html.erb
+  Rendering msgboard/index.html.erb within layouts/msgboard
+  Rendered msgboard/index.html.erb within layouts/msgboard (Duration: 1.9ms | Allocations: 427)
+  Rendered layout layouts/msgboard.html.erb (Duration: 5.4ms | Allocations: 574)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 790)
+
+
